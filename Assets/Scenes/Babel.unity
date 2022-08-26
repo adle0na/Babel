@@ -958,6 +958,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fadeTime: 0.5
+  textFade: {fileID: 0}
 --- !u!114 &599284787
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6480,7 +6481,6 @@ GameObject:
   - component: {fileID: 1033757207}
   - component: {fileID: 1033757209}
   - component: {fileID: 1033757208}
-  - component: {fileID: 1033757210}
   m_Layer: 5
   m_Name: ComboCount
   m_TagString: Untagged
@@ -6529,7 +6529,7 @@ MonoBehaviour:
       m_Calls: []
   m_text: 0Combo!
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: a17874d2fb3def444a8d046c248aca1a, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: d023065abcf3a8b4e9a4a319a1d8fa18, type: 2}
   m_sharedMaterial: {fileID: 2659135778391465459, guid: a17874d2fb3def444a8d046c248aca1a, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -6593,7 +6593,7 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
+  m_hasFontAssetChanged: 1
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &1033757209
@@ -6604,19 +6604,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1033757206}
   m_CullTransparentMesh: 1
---- !u!114 &1033757210
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1033757206}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: faa0608d90104e942956fe5aed0dea55, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  duration: 0.8
 --- !u!1 &1110088427
 GameObject:
   m_ObjectHideFlags: 0
@@ -7142,6 +7129,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fadeTime: 0.5
+  textFade: {fileID: 0}
 --- !u!1 &1547939098
 GameObject:
   m_ObjectHideFlags: 0
@@ -7540,7 +7528,7 @@ MonoBehaviour:
   textCurrentScore: {fileID: 1396410967}
   currentComboCount: {fileID: 1033757208}
   startSize: 100
-  endSize: 300
+  endSize: 200
   resizeTime: 0.3
   textNewRecord: {fileID: 753425161}
   imageCrown: {fileID: 119741132}

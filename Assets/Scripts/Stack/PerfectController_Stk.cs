@@ -27,7 +27,7 @@ public class PerfectController_Stk : MonoBehaviour
     [Header("ComboValues")]
     [SerializeField]
     private int   recoveryCombo     = 5;
-    private float perfectCorrection = 0.035f;
+    private float perfectCorrection = 0.032f;
     private float addedSize         = 0.1f;
     private int   perfectCombo      = 0;
 
