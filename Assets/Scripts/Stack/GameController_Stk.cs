@@ -86,7 +86,7 @@ public class GameController_Stk : MonoBehaviour
         while (true)
         {
             if (Input.GetMouseButtonDown(0))
-                UnityEngine.SceneManagement.SceneManager.LoadScene("Stack");
+                UnityEngine.SceneManagement.SceneManager.LoadScene(0);
 
             yield return null;
         }
